@@ -1,0 +1,63 @@
+body{
+    margin-top: 50px;
+    margin: 50px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+h1{
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h3{
+    color: green;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.block-text{
+    padding-left: 15px;
+}
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
+.content{
+    margin-left: 325px;
+    padding: 0;
+    text-align: justify;
+    width: 550px
+}
+
+.education-years{
+    text-align: right;
+    float: right;
+}
+
+.header{
+    float: left;
+}
+
+.header-content{
+    margin-left: 100px;
+    padding: 0;
+}
+
+.header-title{
+    float: left;
+}
+
+
+.honors{
+    padding-left: 15px;
+}
