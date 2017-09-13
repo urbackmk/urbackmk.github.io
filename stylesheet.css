@@ -1,0 +1,79 @@
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #43a047;
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5, body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.row.education dd:not(.subtitle) {
+  text-align: right;
+}
+.row-education dt {
+  font-weight: normal;
+}
+
+.row.education .subtitle {
+  font-weight: 300;
+}
+
+div.left {
+  background-color: #eeff41;
+  padding: 30px;
+}
+
+div.right {
+  background-color: #f7ffa4;
+  padding: 30px;
+  text-align: right;
+}
+
+div.front-page {
+  color: #757575;
+}
+
+div.front-page h1 {
+  color: #a2a2a2;
+}
+
+div.front-page a {
+  color: #ff9800;
+}
+
+div.pad-top-more {
+  padding-top: 150px;
+}
+
+div.personal-info dt {
+  color: #43a047;
+}
+
+div.personal-info div.row {
+  margin-bottom: 5px;
+}
+
+div.resume a {
+  color: #00acc1;
+}
