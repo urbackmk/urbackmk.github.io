@@ -40,26 +40,26 @@ ul {
 }
 
 div.left {
-  background-color: #eeff41;
+  background-color: #9c27b0;
   padding: 30px;
 }
 
 div.right {
-  background-color: #f7ffa4;
+  background-color: #cddc39;
   padding: 30px;
   text-align: right;
 }
 
 div.front-page {
-  color: #757575;
+  color: #616161;
 }
 
-div.front-page h1 {
-  color: #a2a2a2;
+div.front-page h1, div.front-page ul.subtitle {
+  color: white;
 }
 
 div.front-page a {
-  color: #ff9800;
+  color: #9c27b0;
 }
 
 div.pad-top-more {
