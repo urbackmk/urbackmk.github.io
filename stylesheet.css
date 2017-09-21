@@ -1,8 +1,7 @@
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 h3 {
@@ -50,8 +49,19 @@ div.right {
   text-align: right;
 }
 
+@media (max-width: 767px) {
+  div.right {
+    text-align: left;
+  }
+
+  div.container.front-page {
+    padding-top: 0px;
+  }
+}
+
 div.front-page {
   color: #616161;
+  text-transform: lowercase;
 }
 
 div.front-page h1, div.front-page ul.subtitle {
@@ -74,6 +84,14 @@ div.personal-info div.row {
   margin-bottom: 5px;
 }
 
+div.resume {
+  margin-bottom: 50px;
+}
+
 div.resume a {
   color: #00acc1;
+}
+
+div.resume div.education dl {
+  margin-bottom: 5px;
 }
