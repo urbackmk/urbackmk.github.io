@@ -25,17 +25,35 @@ ul {
 
 .container {
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
 }
 
-.row.education dd:not(.subtitle) {
-  text-align: right;
-}
-.row-education dt {
-  font-weight: normal;
+.columns {
+  display: flex;
+  flex-direction: row;
 }
 
-.row.education .subtitle {
-  font-weight: 300;
+.descriptions, .titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptions {
+  margin-left: 15px;
+}
+
+.titles {
+  font-weight: bold;
+}
+
+.personal-info .titles {
+  color: #43a047;
+}
+
+.descriptions div, .titles div{
+  padding-bottom: 7px;
 }
 
 div.left {
@@ -76,12 +94,8 @@ div.pad-top-more {
   padding-top: 150px;
 }
 
-div.personal-info dt {
-  color: #43a047;
-}
-
-div.personal-info div.row {
-  margin-bottom: 5px;
+div.personal-info {
+  margin-bottom: 20px;
 }
 
 div.resume {
@@ -92,6 +106,12 @@ div.resume a {
   color: #00acc1;
 }
 
-div.resume div.education dl {
-  margin-bottom: 5px;
+div.education-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
 }
